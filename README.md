@@ -1,4 +1,17 @@
-# Welcome to your Lovable project
+# Abhimat Dangi Edits
+
+Professional video editing portfolio website showcasing short-form and long-form video editing services.
+
+## Live Website
+Visit: https://abhimatdangi.github.io/Abhimat-Dangi-Edits/
+
+## Features
+- Video showcase with YouTube integration  
+- Real client testimonials
+- Transparent pricing
+- Contact and booking system
+
+Built with React, TypeScript, and Tailwind CSS.
 
 ## Project info
 
