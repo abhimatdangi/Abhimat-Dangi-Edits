@@ -20,5 +20,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
   // Only use base path for production builds (GitHub Pages)
-  base: mode === 'production' ? '/abhimat-visuals-studio-main/' : '/',
+  base: mode === 'production' ? '/Abhimat-Dangi-Edits/' : '/',
 }));
