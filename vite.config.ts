@@ -19,6 +19,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Only use base path for production builds (GitHub Pages)
-  base: mode === 'production' ? '/Abhimat-Dangi-Edits/' : '/',
+  // Custom domain doesn't need base path
+  base: '/',
 }));
