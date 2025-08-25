@@ -65,7 +65,7 @@ const Index = () => {
             <div className="flex items-center gap-6">
               <a href="#home" className="flex items-center gap-2 font-semibold">
                 <img
-                  src="/lovable-uploads/fcde01eb-5f23-4750-aa31-50576481be37.png"
+                  src="./lovable-uploads/fcde01eb-5f23-4750-aa31-50576481be37.png"
                   alt="Abhimat Dangi logo portrait"
                   className="w-8 h-8 rounded-full object-cover"
                   loading="eager"
@@ -223,7 +223,7 @@ const Index = () => {
               <div className={`testimonial-card glass-surface rounded-2xl p-6 hover-lift fade-in-up stagger-1 ${visibleSections.testimonials ? 'animate' : ''}`}>
                 <div className="flex items-center gap-4 mb-4">
                   <img 
-                    src="/ania.jpeg" 
+                    src="./ania.jpeg" 
                     alt="Ania Skorek" 
                     className="w-12 h-12 rounded-full object-cover border-2 border-primary/20"
                   />
@@ -241,7 +241,7 @@ const Index = () => {
               <div className={`testimonial-card glass-surface rounded-2xl p-6 hover-lift fade-in-up stagger-2 ${visibleSections.testimonials ? 'animate' : ''}`}>
                 <div className="flex items-center gap-4 mb-4">
                   <img 
-                    src="/koshis.jpeg" 
+                    src="./koshis.jpeg" 
                     alt="Koshish Rijal" 
                     className="w-12 h-12 rounded-full object-cover border-2 border-primary/20"
                   />
@@ -259,7 +259,7 @@ const Index = () => {
               <div className={`testimonial-card glass-surface rounded-2xl p-6 hover-lift fade-in-up stagger-3 ${visibleSections.testimonials ? 'animate' : ''}`}>
                 <div className="flex items-center gap-4 mb-4">
                   <img 
-                    src="/david.jpeg" 
+                    src="./david.jpeg" 
                     alt="David Murumbi" 
                     className="w-12 h-12 rounded-full object-cover border-2 border-primary/20"
                   />
@@ -277,7 +277,7 @@ const Index = () => {
               <div className={`testimonial-card glass-surface rounded-2xl p-6 hover-lift fade-in-up stagger-4 ${visibleSections.testimonials ? 'animate' : ''}`}>
                 <div className="flex items-center gap-4 mb-4">
                   <img 
-                    src="/wayne.jpeg" 
+                    src="./wayne.jpeg" 
                     alt="Wayne Danai" 
                     className="w-12 h-12 rounded-full object-cover border-2 border-primary/20"
                   />
@@ -524,7 +524,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
               <img
-                src="/lovable-uploads/fcde01eb-5f23-4750-aa31-50576481be37.png"
+                src="./lovable-uploads/fcde01eb-5f23-4750-aa31-50576481be37.png"
                 alt="Abhimat Dangi"
                 className="w-12 h-12 rounded-full object-cover mx-auto mb-4"
               />
