@@ -7,6 +7,8 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import BackgroundLayer from "@/components/BackgroundLayer";
 import CursorGlow from "@/components/CursorGlow";
+import Testimonials from "./pages/Testimonials";
+import ViewEdits from "./pages/ViewEdits";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +22,8 @@ const App = () => (
       <HashRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/view-edits" element={<ViewEdits />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
