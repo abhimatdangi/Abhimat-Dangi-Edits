@@ -51,9 +51,36 @@ const Index = () => {
       io.observe(el);
     }
 
+    // Handle smooth scrolling for anchor links
+    const handleAnchorClick = (e: Event) => {
+      const target = e.target as HTMLAnchorElement;
+      if (target.getAttribute('href')?.startsWith('#')) {
+        e.preventDefault();
+        const id = target.getAttribute('href')?.substring(1);
+        const element = document.getElementById(id!);
+        if (element) {
+          element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest'
+          });
+        }
+      }
+    };
+
+    // Add event listeners to all anchor links
+    const anchorLinks = document.querySelectorAll('a[href^="#"]');
+    anchorLinks.forEach(link => {
+      link.addEventListener('click', handleAnchorClick);
+    });
+
     return () => {
       document.head.removeChild(script);
       io?.disconnect();
+      // Remove event listeners
+      anchorLinks.forEach(link => {
+        link.removeEventListener('click', handleAnchorClick);
+      });
     };
   }, []);
 
