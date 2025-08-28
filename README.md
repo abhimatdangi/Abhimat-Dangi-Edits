@@ -8,7 +8,8 @@ Visit: https://abhimatdangi.github.io/Abhimat-Dangi-Edits/
 ## Features
 - Video showcase with YouTube integration  
 - Real client testimonials
-- Transparent pricing- Contact and booking system
+- Transparent pricing
+- Contact and booking system
 
 Built with React, TypeScript, and Tailwind CSS.
 
