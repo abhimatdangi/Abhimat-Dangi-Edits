@@ -8,6 +8,7 @@ Visit: https://abhimatdangi.github.io/Abhimat-Dangi-Edits/
 ## Features
 - Video showcase with YouTube integration  
 - Real client testimonials
+- Responsive design with dark theme
 - Transparent pricing
 - Contact and booking system
 
