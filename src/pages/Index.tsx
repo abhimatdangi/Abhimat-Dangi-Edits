@@ -147,7 +147,6 @@ const Index = () => {
                     title="Long-form video editing"
                     type="long"
                   />
-                  <p className="text-xs text-muted-foreground italic text-center mt-2">DM me now for pricing or any queries</p>
                 </div>
                 
                 {/* VSL (16:9) */}
